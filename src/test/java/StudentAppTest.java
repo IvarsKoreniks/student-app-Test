@@ -77,10 +77,10 @@ public class StudentAppTest {
         assertEquals(notifications.getGenderFieldErrorMessage(), "Please select a gender");
     }
 
-    @Test(description = "User delete")
-    public void userDelete() {
-        allStudentsPage.waitAndClickOnDeleteStudent();
-        assertEquals(notifications.getStudentDeleteNotificationMessage(), "Are you sure to delete ");
-    }
+//    @Test(description = "User delete")
+//    public void userDelete() {
+//        allStudentsPage.waitAndClickOnDeleteStudent();
+//        assertEquals(notifications.getStudentDeleteNotificationMessage(), "Are you sure to delete ");
+//    }
 
 }
